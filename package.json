@@ -7,6 +7,9 @@
     "cypress-open": "./node_modules/.bin/cypress open",
     "cypress-run": "./node_modules/.bin/cypress run"
   },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps-definitions"
+  },
   "keywords": [],
   "author": "Paulo Zanette",
   "license": "ISC",
