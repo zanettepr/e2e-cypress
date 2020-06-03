@@ -29,6 +29,14 @@ module.exports = {
             .click();
     },
 
+    clicarBotaoExcluirListaConta: (conta) => {
+
+        obterNumeroItensListaContas();
+
+        cy.xpath(contasElements.botaoExcluirListaContas(conta))
+            .click();
+    },
+
     validarCadastroConta: (conta) => {
 
         cy.xpath(contasElements.itemListaContas())
@@ -36,5 +44,14 @@ module.exports = {
 
         cy.xpath(contasElements.listaContas())
             .contains(conta);
+    },
+
+    validarContaExcluida: (conta) => {
+
+        cy.xpath(contasElements.itemListaContas())
+            .should('have.length', qtdContasCadastradas - 1);
+
+        cy.xpath(contasElements.listaContas())
+            .should('not.contain', conta);
     }
 }
