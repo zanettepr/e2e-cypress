@@ -2,7 +2,7 @@
  <img src="https://miro.medium.com/fit/c/1838/551/1*C-27ssAPshY3urn2pbEX4w.png" >
 </div>
 
-# Respositório de Testes Automtizados com Cypress e Cucumber
+# Respositório de Testes Automatizados com Cypress e Cucumber
 
 Este repositório tem como objetivo a automação de teste de uma sistema que utilizei em dos cursos que fiz na Udemy. Segue abaixo o link:
   - http://barrigareact.wcaquino.me/
