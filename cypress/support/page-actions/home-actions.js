@@ -12,4 +12,16 @@ module.exports = {
             .should('be.visible')
             .wait(1000);
     },
+
+    clicarMenuConfigracoes: () => {
+
+        cy.get(homeElements.menuConfiguracoes())
+            .click();
+    },
+
+    clicarSubMenuContas: () => {
+
+        cy.xpath(homeElements.subMenuContas())
+            .click();
+    }
 }
