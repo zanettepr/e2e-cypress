@@ -13,9 +13,12 @@ steps:
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
-  displayName: 'Install Node.js'
+  displayName: 'Instalando o Node.js'
 
 - script: |
     npm install
+  displayName: 'Instalando as libs do projeto'
+
+- script: |
     npm run cypress-run
-  displayName: 'npm install and run'
+  displayName: 'Executando os testes'
