@@ -1,5 +1,6 @@
 {
     "baseUrl": "http://barrigareact.wcaquino.me/",
+    "screenshotOnRunFailure": true,
     "reporter": "junit", 
     "reporterOptions": { 
         "mochaFile": "cypress/support/reporter/test-result.[hash].xml",
