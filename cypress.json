@@ -1,3 +1,8 @@
 {
-    "baseUrl": "http://barrigareact.wcaquino.me/"
+    "baseUrl": "http://barrigareact.wcaquino.me/",
+    "reporter": "mocha-junit-reporter", 
+    "reporterOptions": { 
+        "mochaFile": "cypress/support/reporter/test-result.[hash].xml", 
+        "testsuitesTitle": false 
+    }
 }
