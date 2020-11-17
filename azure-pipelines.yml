@@ -28,8 +28,8 @@ steps:
   
 - task: PublishTestResults@2
   inputs:
-    testResultsFormat: 'VSTest'
-    testResultsFiles: '*.trx'
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '*.xml'
     searchFolder: '$(System.DefaultWorkingDirectory)/cypress/support/reporter'
     mergeTestResults: true
     testRunTitle: 'Resultado dos testes'
