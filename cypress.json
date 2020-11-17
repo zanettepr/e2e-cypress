@@ -2,6 +2,8 @@
     "baseUrl": "http://barrigareact.wcaquino.me/",
     "reporter": "junit", 
     "reporterOptions": { 
-        "mochaFile": "cypress/support/reporter/test-result.[hash].xml"
+        "mochaFile": "cypress/support/reporter/test-result.[hash].xml",
+        "toConsole": true,
+        "attachments": true
     }
 }
