@@ -30,6 +30,6 @@ steps:
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '*.xml'
-    searchFolder: '$(System.DefaultWorkingDirectory)/cypress/support/report'
+    searchFolder: '$(System.DefaultWorkingDirectory)/cypress/support/reporter'
     mergeTestResults: true
     testRunTitle: 'Resultado dos testes'
