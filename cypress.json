@@ -1,5 +1,5 @@
 {
-    "baseUrl": "http://barrigareact.wcaquino.me/",
+    "baseUrl": "VALUE_BASE_URL",
     "reporter": "junit",
     "screenshotOnRunFailure": true,
     "reporterOptions": { 
