@@ -49,7 +49,7 @@ module.exports = {
     validarContaExcluida: (conta) => {
 
         cy.xpath(contasElements.itemListaContas())
-            .should('have.length', qtdContasCadastradas - 1);
+            .should('have.length', qtdContasCadastradas - 2);
 
         cy.xpath(contasElements.listaContas())
             .should('not.contain', conta);
