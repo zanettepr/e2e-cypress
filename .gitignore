@@ -4,4 +4,6 @@
 
 /cypress/videos
 
+/cypress/support/reporter
+
 /package-lock.json
